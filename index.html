@@ -11,6 +11,7 @@
             font-family: 'Poppins', sans-serif;
             min-height: 100vh;
             margin: 0;
+            overflow-x:hidden;
         }
     @media(max-width:768px){
 
@@ -21,7 +22,8 @@
 
         .container{
             width:90%;
-            min-width: auto;
+            min-width: 0;
+            margin: 20px 0;
                
             
     }
@@ -30,6 +32,7 @@
 
         nav{
             flex-direction:column;
+            gap: 15px;
             display: flex;
             background: linear-gradient(135deg,#335680,#398256);
             justify-content: space-between;
@@ -45,7 +48,7 @@
             margin: 0;
             display: flex;
             justify-content: center;
-            gap: 20px;
+            gap: 10px;
         }
 
         nav a{
