@@ -5,14 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthy Store</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>        
-        body{
-            background:linear-gradient(135deg,#693380,#395482);
-            font-family: 'Poppins', sans-serif;
-            min-height: 100vh;
-            margin: 0;
-            overflow-x:hidden;
-        }
+    <style>
     @media(max-width:768px){
 
         .cards{
@@ -21,34 +14,36 @@
     }
 
         .container{
-            width:90%;
-            min-width: 0;
-            margin: 20px 0;
-               
-            
+        width:90%;
+        max-width: 350px;
+        min-width: 0px;
+        margin: 20px 0;
     }
 
-
-
+}
+        body{
+            background:linear-gradient(135deg,#693380,#395482);
+            font-family: 'Poppins', sans-serif;
+            min-height: 100vh;
+            margin: 0;
+        }
         nav{
-            flex-direction:column;
-            gap: 15px;
             display: flex;
             background: linear-gradient(135deg,#335680,#398256);
             justify-content: space-between;
             padding: 20px 40px;
             color: white;
-            align-items: center;
+            text-align: center;
+            gap: 15px;
             transition: color 0.3s ease;
         }
 
         nav ul{
             list-style: none;
-            padding: 0;
+            padding: 20px 40px;
             margin: 0;
             display: flex;
-            flex-direction: column;
-            align-items: center;
+            text-align: center;
             gap: 10px;
         }
 
@@ -65,14 +60,13 @@
             color: #ff4d4d;
         }
 
-    
         .main-title{
             text-align: center;
             color: white;
             margin: 20px 0;
             font-size: 28px;
         }
-    }
+
         .product-count{
             text-align: center;
             color: white;
@@ -100,7 +94,7 @@
         .container{
             overflow: hidden;
             position: relative;
-            min-width: auto;
+            min-width: 250px;
             width:auto;
             height:auto;
             background: #fff;
@@ -117,7 +111,7 @@
         }
         h1{
             text-align: center;
-            color: white !important;
+            color: #222;
             margin-bottom: 5px;
         }
 
