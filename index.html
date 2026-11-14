@@ -21,13 +21,21 @@
     }
 
 }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: 1px solid red;
+        }
         body{
             background:linear-gradient(135deg,#693380,#395482);
             font-family: 'Poppins', sans-serif;
             min-height: 100vh;
             margin: 0;
+            overflow-x: hidden;
         }
         nav{
+            width: 100%;
             display: flex;
             background: linear-gradient(135deg,#335680,#398256);
             justify-content: space-between;
@@ -40,7 +48,7 @@
 
         nav ul{
             list-style: none;
-            padding: 20px 20px;
+            padding: 0;
             margin: 0;
             display: flex;
             text-align: center;
